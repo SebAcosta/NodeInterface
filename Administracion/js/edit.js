@@ -1,7 +1,7 @@
 window.onload = init;
 var headers = {}
 let id = 0
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://tallerdenode.azurewebsites.net';
 
 function init(){
     if(sessionStorage.getItem("token")){
