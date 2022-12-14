@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;0,800;1,200&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/empleados.js"></script>
+    <title>Pantalla principal</title>
+</head>
+<body>
+    <div class="header">
+        <div class="hTitle">
+            <h2>Taller de Node S.A. de C.V.</h2>
+        </div>
+        <div class="search">
+            <input type="text" class="nombre" id="nombre" placeholder="Busqueda por nombre">
+            <div class="lupa" id="lupa">
+                <img
+                    src="./images/lupa.png"
+                    height="32"
+                    width="32"
+                    id="lupaimg"
+                />
+            </div>
+        </div>
+    </div>
+    <div class="bienvenido">
+        <h1 class="mTitle" id="mTitle">Buenas</h1>
+        <h1 class="mNombre" id="mNombre"></h1>
+        <div class="mBoton">
+            <h2 class="bText">Agregar empleado</h2>
+            <div class="agregar">
+                <img
+                    src="./images/agregar-usuario.png"
+                    height="32"
+                    width="32"
+                />
+            </div>
+        </div>
+    </div>
+    <h1 class="tabla">Nombre</h1>
+    <h1 class="tabla2">Tel</h1>
+    <h1 class="tabla3">Correo</h1>
+    <h1 class="tabla4">Dirección</h1>
+    <div class="empleados" id="datos">
+    </div>
+</body>
+</html>
